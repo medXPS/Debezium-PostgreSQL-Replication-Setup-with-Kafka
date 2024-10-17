@@ -118,7 +118,7 @@ Check if replication is now consistent. After proper setup, the output should co
 
 
 ```bash
-./stree.sh
+./stress.sh
 ```
 
 ```
