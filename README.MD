@@ -12,7 +12,7 @@ Key components:
 ### Step 0: Clone the project
 
 ```bash
-git clone
+git clone https://github.com/medXPS/Debezium-PostgreSQL-Replication-Setup-with-Kafka.git
 ```
   
 ### Step 1: Launch the environment
