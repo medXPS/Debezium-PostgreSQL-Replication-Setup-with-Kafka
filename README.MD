@@ -105,7 +105,8 @@ GRANT SELECT ON ALL TABLES IN SCHEMA public TO master1;
 ```sql
  CREATE TABLE public.test_replication ( id SERIAL PRIMARY KEY, name VARCHAR(50), value INTEGER );
  ```
-
+ 
+4.  create subscription
 ```sql
 CREATE SUBSCRIPTION my_subscription CONNECTION 'host=postgres-master1 port=5432 user=master1 password=master1pass dbname=testdb' PUBLICATION dbz_publication;
 ```
